@@ -1,0 +1,16 @@
+{
+    "name": "team/admincore",
+    "authors": [
+        {
+            "name": "haidangdevhaui",
+            "email": "haidangdevhaui@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+        "Team\\Core\\": "src"
+        }
+    }
+}
