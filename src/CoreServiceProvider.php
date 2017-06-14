@@ -11,6 +11,7 @@ class CoreServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/views', 'admin');
         $this->publishes([
             __DIR__ . '/config' => config_path(),
+            __DIR__ . '/public' => public_path(),
             __DIR__ . '/database/migrations' => base_path('database/migrations/admin'),
             __DIR__ . '/database/seeds' => base_path('database/seeds'),
         ]);
