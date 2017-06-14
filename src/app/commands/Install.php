@@ -1,6 +1,6 @@
 <?php 
 
-namespace Team\Core\App\Commands;
+namespace Haidangdev\Core\App\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

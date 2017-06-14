@@ -1,6 +1,6 @@
 <?php
 
-namespace Team\Core\App\Middlewares;
+namespace Haidangdev\Core\App\Middlewares;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

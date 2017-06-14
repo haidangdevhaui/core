@@ -1,10 +1,10 @@
 <?php
 
-namespace Team\Core\App\Middlewares;
+namespace Haidangdev\Core\App\Middlewares;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
-use Team\Core\App\Models\Role;
+use Haidangdev\Core\App\Models\Role;
 
 class SuperAdmin
 {

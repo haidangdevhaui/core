@@ -1,11 +1,11 @@
 <?php
-namespace Team\Core\App\Controllers;
+namespace Haidangdev\Core\App\Controllers;
 
 use Illuminate\Http\Request;
-use Team\Core\App\Middlewares\Authenticate;
+use Haidangdev\Core\App\Middlewares\Authenticate;
 use Auth;
-use Team\Core\App\Models\Module;
-use Team\Core\App\Helpers\Helper;
+use Haidangdev\Core\App\Models\Module;
+use Haidangdev\Core\App\Helpers\Helper;
 
 class AdminController extends \App\Http\Controllers\Controller
 {

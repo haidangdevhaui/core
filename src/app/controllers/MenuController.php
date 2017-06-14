@@ -1,9 +1,9 @@
 <?php
-namespace Team\Core\App\Controllers;
+namespace Haidangdev\Core\App\Controllers;
 
 use Illuminate\Http\Request;
-use Team\Core\App\Controllers\AdminController;
-use Team\Core\App\Models\Menu;
+use Haidangdev\Core\App\Controllers\AdminController;
+use Haidangdev\Core\App\Models\Menu;
 
 class MenuController extends AdminController
 {

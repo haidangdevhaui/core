@@ -1,9 +1,9 @@
 <?php
-namespace Team\Core\App\Controllers\Api;
+namespace Haidangdev\Core\App\Controllers\Api;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Team\Core\App\Models\Element;
+use Haidangdev\Core\App\Models\Element;
 
 class Module{
 

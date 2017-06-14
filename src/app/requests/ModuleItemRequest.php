@@ -1,6 +1,6 @@
 <?php
 
-namespace Team\Core\App\Requests;
+namespace Haidangdev\Core\App\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Http\Request;

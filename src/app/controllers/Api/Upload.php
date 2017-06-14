@@ -1,5 +1,5 @@
 <?php
-namespace Team\Core\App\Controllers\Api;
+namespace Haidangdev\Core\App\Controllers\Api;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

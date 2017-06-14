@@ -1,6 +1,6 @@
 <?php
 
-namespace Team\Core\App\Models;
+namespace Haidangdev\Core\App\Models;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -29,6 +29,6 @@ class Admin extends Authenticatable
     ];
 
     public function role(){
-        return $this->hasOne('Team\Core\App\Models\Role', 'id', 'role_id');
+        return $this->hasOne('Haidangdev\Core\App\Models\Role', 'id', 'role_id');
     }
 }

@@ -1,14 +1,14 @@
 <?php
-namespace Team\Core\App\Controllers;
+namespace Haidangdev\Core\App\Controllers;
 
 use Illuminate\Http\Request;
-use Team\Core\App\Controllers\AdminController;
-use Team\Core\App\Middlewares\SuperAdmin;
-use Team\Core\App\Requests\ModuleRequest;
-use Team\Core\App\Models\Module;
-use Team\Core\App\Models\Element;
-use Team\Core\App\Helpers\Helper;
-use Team\Core\App\Traits\DataTable;
+use Haidangdev\Core\App\Controllers\AdminController;
+use Haidangdev\Core\App\Middlewares\SuperAdmin;
+use Haidangdev\Core\App\Requests\ModuleRequest;
+use Haidangdev\Core\App\Models\Module;
+use Haidangdev\Core\App\Models\Element;
+use Haidangdev\Core\App\Helpers\Helper;
+use Haidangdev\Core\App\Traits\DataTable;
 
 class ModuleController extends AdminController
 {

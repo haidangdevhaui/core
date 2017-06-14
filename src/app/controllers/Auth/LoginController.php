@@ -1,6 +1,6 @@
 <?php
 
-namespace Team\Core\App\Controllers\Auth;
+namespace Haidangdev\Core\App\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;

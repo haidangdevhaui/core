@@ -1,5 +1,5 @@
 <?php
-namespace Team\Core\App\Helpers;
+namespace Haidangdev\Core\App\Helpers;
 use Illuminate\Support\Facades\Storage;
 use \File;
 

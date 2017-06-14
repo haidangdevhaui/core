@@ -77,7 +77,7 @@ return [
 
         'admin' => [
             'driver' => 'eloquent',
-            'model' => Team\Core\App\Models\Admin::class,
+            'model' => Haidangdev\Core\App\Models\Admin::class,
         ],
 
         // 'users' => [

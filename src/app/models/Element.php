@@ -1,6 +1,6 @@
 <?php
 
-namespace Team\Core\App\Models;
+namespace Haidangdev\Core\App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use \Form as Form;

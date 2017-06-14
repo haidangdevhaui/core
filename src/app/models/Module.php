@@ -1,11 +1,11 @@
 <?php
 
-namespace Team\Core\App\Models;
+namespace Haidangdev\Core\App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
-use Team\Core\App\Helpers\Helper;
+use Haidangdev\Core\App\Helpers\Helper;
 
 class Module extends Model
 {

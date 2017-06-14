@@ -1,7 +1,7 @@
 <?php 
-namespace Team\Core;
+namespace Haidangdev\Core;
 use Illuminate\Support\ServiceProvider;
-use Team\Core\App\Commands\Install;
+use Haidangdev\Core\App\Commands\Install;
 use Illuminate\Support\Facades\Route;
 
 class CoreServiceProvider extends ServiceProvider
@@ -15,7 +15,7 @@ class CoreServiceProvider extends ServiceProvider
             __DIR__ . '/database/seeds' => base_path('database/seeds'),
         ]);
         Route::middleware('web')
-             ->namespace('Team\Core\App\Controllers')
+             ->namespace('Haidangdev\Core\App\Controllers')
              ->group(__DIR__ . '/app/routes.php');
     }
 

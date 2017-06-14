@@ -1,5 +1,5 @@
 <?php
-namespace Team\Core\App\Traits;
+namespace Haidangdev\Core\App\Traits;
 
 trait DataTable
 {
