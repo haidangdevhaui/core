@@ -22,6 +22,9 @@ class CoreServiceProvider extends ServiceProvider
 
     public function register()
     {
+        $this->app->register('Collective\Html\HtmlServiceProvider');
+        class_alias(\Collective\Html\FormFacade::class, 'Form');
+        class_alias(\Collective\Html\HtmlFacade::class, 'Html');
     	$this->app->singleton('admininstall',function() {
             return new Install;
         });
