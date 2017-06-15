@@ -144,7 +144,7 @@ $(function () {
         });
     });
     $(document).on('change', '.select-formElement', function(){
-        if($(this).val() == 11){
+        if($(this).val() == 12){
             $(' <input type="text" class="form-control" name="field['+fieldNumb+'][link]" placeholder="table.key.value"/> ').insertAfter($(this));
         }else{
             $(document).find('[name="field['+fieldNumb+'][link]"]').remove();
